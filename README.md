@@ -23,11 +23,11 @@ Proyek ini adalah platform berbasis web yang dirancang untuk membantu petani dal
 Untuk menjalankan proyek ini secara lokal:
 1. Clone repositori:
     ```bash
-    git clone https://github.com/ammaarsirajalhakim/massive-web.git
+    git clone https://github.com/iqbalputramaulana/agri-synergy-web.git
     ```
 2. Masuk ke folder proyek:
     ```bash
-    cd massive-web
+    cd agri-synergy-web
     ```
 3. Instal `node_modules`:
     ```bash
