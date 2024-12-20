@@ -1,0 +1,323 @@
+.custom-calendar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 20px;
+    gap: 86px;
+}
+
+.custom-content-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 520px;
+    height: 590px;
+}
+
+.custom-content-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.custom-content-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.custom-button-group {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px; 
+    width: 100%; 
+    justify-content: end;
+}
+
+.custom-edit-button {
+    background-color: white;
+    color: #4388f9;
+    border: none;
+    padding: 9px 36px 9px 36px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border: #4388f9 solid 1px;
+}
+
+.custom-delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 9px 28px 9px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-calendar-wrapper {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.react-calendar {
+    width: 356px;
+    height: 356px;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+.react-calendar__navigation span {
+    background-color: #ff9800;
+    padding: 4px 10px 4px 10px;
+    border-radius: 8px;
+    font-size: 11px;
+    color: white;
+}
+
+.rectangles-kalender {
+    width: 2px;
+    background-color: #ddd;
+    height: 100%;
+    align-self: stretch;
+}
+.react-calendar__tile--now {
+    background: #ff9800;
+    color: white;
+}
+
+.react-calendar__tile--active {
+    background: #4CAF50;
+    color: white;
+}
+
+.react-calendar__tile--now:enabled:hover, 
+.react-calendar__tile--active:enabled:hover {
+    background: #45a049;
+}
+
+/* calender add card */
+
+.calendar-add-form__container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.calendar-add-form__group {
+    margin-bottom: 15px;
+}
+
+.calendar-add-form__row {
+    display: flex;
+    gap: 15px;
+}
+
+.calendar-add-form__group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.calendar-add-form__input,
+.calendar-add-form__select,
+.calendar-add-form__textarea,
+.calendar-add-form__datepicker {
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.calendar-add-form__textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.calendar-add-form__buttons {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.calendar-add-form__cancel-button,
+.calendar-add-form__submit-button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.calendar-add-form__cancel-button {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+.calendar-add-form__submit-button {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* calendar notification  */
+
+.calendar-notif-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .calendar-notif-add-button {
+    background-color: #4285f4;
+    color: white;
+    font-size: 32px;
+    padding: 20px 224px 20px 224px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-notif-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 460px;
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-notif-icon {
+    font-size: 24px;
+    color: #ffcc00;
+    margin-right: 16px;
+  }
+  
+  .calendar-notif-content {
+    flex: 1;
+  }
+  
+  .calendar-notif-content h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .calendar-notif-content p {
+    margin: 8px 0 0;
+    font-size: 14px;
+  }
+  
+  .calendar-notif-image {
+    margin-left: 16px;
+  }
+  
+  .calendar-notif-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .calendar-notif-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* edit kalender  */
+
+  .calendar-add-form__img-preview {
+    width: 92px;
+    height: 92px;
+    border-radius: 4px;
+    margin-bottom: 8px; 
+    display: block;
+}
+
+/* alert  */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background-color: white;
+    width: 392px;
+    height: 265px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modal h2 {
+    margin-bottom: 10px !important;
+    font-size: 30px !important;
+    color: #f44336 !important;
+}
+
+.modal p {
+    margin-bottom: 20px !important;
+}
+
+.modal-confirm-button {
+    background-color: #4388f9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.modal-cancel-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.exclamation-icon {
+    width: 70px;
+    font-size: 50px;
+    color: #f44336;
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border: #f44336 solid 1px;
+    border-radius: 50%;
+}
+
+.card-red {
+    background-color: #ffcccc; 
+    border: 1px solid #ff0000; 
+    border-radius: 8px; 
+    padding: 16px; 
+    color: #a70000; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    max-width: 500px;
+    margin: 20px auto; 
+    text-align: center; 
+    font-weight: bold;
+}

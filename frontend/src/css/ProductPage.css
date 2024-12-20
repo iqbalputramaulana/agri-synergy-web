@@ -1,0 +1,179 @@
+.container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .category-sidebar {
+    width: 20%;
+    padding-right: 20px;
+  }
+  
+  .category-sidebar .category-sidebar-h2 {
+    font-size: 1.5em !important;
+    margin-bottom: 10px !important;
+    color: black !important;
+  }
+  
+  .category-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category-sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .category-sidebar ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.category-sidebar ul li::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray; /* Warna default lingkaran */
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.category-sidebar ul li.active::before {
+    background-color: red; /* Warna merah untuk kategori yang aktif */
+}
+
+.category-sidebar ul li.active a {
+    font-weight: bold;
+    color: black; /* Warna teks untuk kategori yang aktif */
+}
+
+.category-sidebar ul li a {
+    color: black; /* Membuat teks berwarna hitam */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.category-sidebar ul li a:hover {
+    color: black; /* Pastikan warna tetap hitam saat di-hover */
+}
+
+  .product-section {
+    width: 80%;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 8px 15px;
+    margin-left: 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .filter-sort {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .filter-sort select {
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-page {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .product-page img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-page h3 {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  .rating {
+    color: #FFD700;
+  }
+  
+  .product-page p {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .product-page button {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tag {
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    top: 10px;
+    left: 10px;
+    font-size: 0.9em;
+  }
+  
+  /* Pagination Styles */
+.pagination {
+    display: flex; /* Menambahkan Flexbox untuk memastikan item berada di tengah */
+    justify-content: center; /* Mengatur item agar terpusat */
+    align-items: center; /* Menyelaraskan item secara vertikal */
+    margin-top: 50px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination button:hover {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  #product-image {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    position: relative !important;
+  }
+  

@@ -1,0 +1,122 @@
+/* InformasiToko.css */
+
+.informasi-toko {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.informasi-toko .dropshipper-page-h2 {
+  font-size: 24px !important;
+  color: #333 !important;
+  margin-bottom: 20px !important;
+  text-align: center !important;
+}
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  font-size: 14px;
+  position: relative;
+}
+
+.step .circle {
+  width: 24px;
+  height: 24px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.step.active .circle {
+  background-color: #4CAF50; /* Warna lingkaran aktif */
+}
+
+.line {
+  width: 80px;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0 8px;
+}
+
+.line.active {
+  background-color: #4CAF50; /* Warna garis aktif */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.form label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+}
+
+.form .form-input-markets {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.form .form-input-markets {
+  margin-top: 5px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submit-button {
+  padding: 10px 20px !important;
+  color: #fff !important;
+  background-color: #4CAF50 !important;
+  border: none !important;
+  border-radius: 5px !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+}
+
+.submit-button.back {
+  background-color: #666 !important; /* Warna untuk tombol "Kembali" */
+}
+
+.submit-button.next {
+  background-color: #4CAF50 !important; /* Warna untuk tombol "Lanjut" */
+}
+
+.submit-button:hover {
+  opacity: 0.9 !important;
+}

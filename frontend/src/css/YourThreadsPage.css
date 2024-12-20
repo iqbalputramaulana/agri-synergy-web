@@ -1,0 +1,113 @@
+.your-threads-page {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar-left, .sidebar-right {
+    width: 15%;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.sidebar-left {
+    border-right: 1px solid #ddd;
+}
+
+.sidebar-right {
+    border-left: 1px solid #ddd;
+}
+
+.sidebar-button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sidebar-button.active {
+    background-color: #388E3C;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.thread-post {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.time-ago {
+    color: #888;
+}
+
+.post-content {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.post-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.audio-button, .like-button, .dislike-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.community-list, .trending-topics {
+    margin-top: 20px;
+}
+
+.community-list h3, .trending-topics h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.community-list ul, .trending-topics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.community-list li, .trending-topics li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}

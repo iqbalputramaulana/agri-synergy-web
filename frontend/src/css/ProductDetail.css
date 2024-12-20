@@ -1,0 +1,144 @@
+/* src/css/ProductDetail.css */
+.product-detail-container {
+  width: 100%; /* Ganti max-width: 1200px dengan width: 100% */
+  margin: 0; /* Hapus auto pada margin */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.product-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  font-size: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.product-content {
+  display: flex;
+  gap: 40px;
+}
+
+.product-image-section {
+  flex: 1;
+}
+
+.product-main-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.product-thumbnails {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  text-align: center;
+}
+
+.thumbnail img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-info-section {
+  flex: 1;
+}
+
+.product-info-section h2 {
+  color: #333 !important;
+  font-size: 32px !important;
+  margin: 0 !important;
+  text-align: left;
+}
+
+.product-price {
+  color: #000 !important; /* Warna hitam */
+  font-size: 24px !important; /* Ukuran font lebih besar */
+  font-weight: bold !important;
+  margin-bottom: 5px !important; /* Jarak bawah antara harga dan stok */
+}
+
+
+.product-stock {
+  color: #888;
+  margin-top: 5px;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+  color: #f5a623;
+  font-size: 18px;
+}
+
+.product-description {
+  margin: 20px 0;
+  color: #555;
+}
+
+.product-description1 {
+  max-height: 50px; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  line-height: 1.5; 
+  font-weight: normal !important;
+}
+
+
+.product-ingredients {
+  list-style-type: disc;
+  margin: 10px 0;
+  padding-left: 20px;
+  color: #777;
+}
+
+.quantity-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.quantity-section input {
+  width: 60px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-to-cart-button,
+.add-to-buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart-button {
+  margin-right: 10px; 
+}
+
+.add-to-cart-button:hover, 
+.add-to-buy-button:hover{
+  background-color: #0056b3;
+}

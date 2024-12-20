@@ -1,0 +1,134 @@
+/* components/OrderHistoryPage.css
+
+.order-history-page {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-history-page .dropshipper-page-h2 {
+  font-size: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  color: #333 !important;
+}
+
+.order-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.order-history-table th,
+.order-history-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-history-table th {
+  background-color: #f8f8f8;
+  color: #333;
+  font-weight: 600;
+}
+
+.status-completed {
+  color: green;
+  font-weight: bold;
+}
+
+.status-in-progress {
+  color: orange;
+  font-weight: bold;
+} */
+
+
+
+.order-history-page {
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.order-history-page .dropshipper-page-h2 {
+  font-size: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  color: #333 !important;
+}
+
+.order-history-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.order-date {
+  font-size: 14px;
+  color: #888;
+}
+
+.order-status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.order-status-pending {
+  background-color: orange; 
+}
+
+.order-status-dikirim {
+  background-color: #17a2b8; 
+}
+
+.order-status-berhasil {
+  background-color: #28a745; 
+}
+
+.order-status-batal {
+  background-color: #dc3545;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.order-table th, .order-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #f8f8f8;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.order-total {
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}

@@ -1,0 +1,324 @@
+/* Tampilan Utama */
+.app {
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  /* Sidebar Chat */
+  .sidebar-chat {
+    background-color: #5f897b;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .chat-container {
+    font-family: Arial, sans-serif;
+    color: white;
+    width: 256px;
+  }
+  .chat-container p {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    padding-right: 82px;
+  }
+  .chat-container img {
+    width: 24px;
+    height: 100%;
+    padding-bottom: 10px;
+  }
+  
+  .head-expert {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-header {
+    margin-bottom: 20px;
+  }
+  
+  .chat-header p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .chat-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .chat-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-item span {
+    margin-right: 5px;
+  }
+  
+  .status {
+    font-size: 12px;
+    color: lightgreen;
+    padding-left: 10px;
+  }
+  
+  .logout-button {
+    display: flex;
+    justify-content: left;
+    margin-top: auto;
+  }
+  
+  .logout-button button {
+    display: flex;
+    align-items: center;
+    background-color: #5f897b;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .logout-button .icon-out {
+    background-color: #2b3f36;
+    display: flex;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 27px;
+  }
+  
+  .login-button {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+  
+  .login-button button {
+    display: flex;
+    align-items: center;
+    background-color: #5f897b;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .login-button .icon-out {
+    background-color: #2b3f36;
+    display: flex;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 27px;
+  }
+  
+  /* Chat Area */
+  .chat-area {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 700px;
+    max-width: 750px;
+    align-items: center;
+    overflow-y: auto;
+  }
+  
+  .chat-boxes {
+    flex-grow: 1;
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Pesan Pengguna */
+  .message {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    max-width: 60%;
+  }
+  
+  .message.user {
+    justify-content: flex-end;
+    align-self: flex-end;
+    text-align: right;
+    position: relative;
+    display: flex;
+    max-width: 60%;
+  }
+  
+  .message.user .message-content {
+    background-color: #d0e8d0;
+    padding: 10px;
+    border-radius: 15px 0 15px 15px;
+    color: #333;
+    position: relative;
+    max-width: 85%;
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  .message.user .avatar {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 1;
+    margin: 0;
+  }
+  
+  .message.expert {
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+  
+  .expert-details {
+    margin-left: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  
+  .message.expert .message-content {
+    background-color: #a3c1d1;
+    padding: 10px;
+    border-radius: 0 15px 15px 15px;
+    color: #333;
+  }
+  
+  .message.expert .avatar {
+    margin-right: 10px;
+  }
+  
+  .expert {
+    display: flex;
+  }
+  
+  /* Input Pesan */
+  .message-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .message-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .message-input button {
+    padding: 8px 12px;
+    background-color: #3b5945;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .emoji-button {
+    padding-top: 8px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  
+  .emoji-button img {
+    width: 18px !important;
+  }
+  
+  /* Emoji Bar */
+  .emoji-bar {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 1px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .emoji-bar .emoji {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .emoji-bar .emoji:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Avatar */
+  .avatar {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    padding: 0 !important;
+  }
+  
+  /* Gaya untuk Gambar Pesan */
+  .message-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .img-chat {
+      max-width: 100px;
+      max-height: 100px;
+      border-radius: 8px;
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+
+  .file-attachment{
+    margin-top: 10px;
+  }
+  
+  .btn-img-send {
+      position: absolute;
+      top: 2px;
+      right: 0;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      border-radius: 100%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+  }
+  
+  

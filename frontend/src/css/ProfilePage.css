@@ -1,0 +1,84 @@
+/* components/ProfilePage.css */
+
+.profile-page {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Mengubah lebar menjadi 80% dari kontainer */
+    max-width: 800px; /* Membuat lebar maksimum lebih besar */
+    margin: auto;
+}
+
+.profile-image {
+    width: 120px; /* Mengubah ukuran gambar profil */
+    height: 120px; /* Mengubah ukuran gambar profil */
+}
+
+.profile-page .dropshipper-page-h2 {
+    font-size: 1.5rem !important;
+    color: #333 !important;
+    margin-bottom: 1rem !important;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: row; /* Mengatur agar konten ditampilkan sejajar */
+    align-items: flex-start; /* Menyelaraskan bagian atas */
+    gap: 1rem; /* Jarak antar elemen */
+    margin-bottom: 2rem;
+}
+
+.profile-image-section {
+    text-align: center;
+}
+
+.choose-file-button {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+    padding: 0.5rem 1rem !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: block;
+}
+
+.profile-details-section,
+.password-section {
+    flex: 1; /* Agar bagian ini tumbuh sama rata */
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.input-icon {
+    margin-right: 0.5rem;
+    color: #777;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.update-button {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+    padding: 0.5rem 1rem !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    width: 100% !important;
+}

@@ -1,0 +1,117 @@
+/* index.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #e0f7e0;
+  padding: 1rem;
+}
+
+
+/* Atur tampilan halaman Dropshipper agar berada di samping Sidebar */
+.dropshipper-page {
+  flex: 1; /* Membuat halaman Dropshipper menyesuaikan sisa ruang */
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropshipper-page .dropshipper-page-h2 {
+  color: black !important;
+  font-size: 1.5rem !important ; 
+  margin-bottom: 1rem !important;
+}
+
+.dropshipper-page p, .dropshipper-page ul {
+  margin-bottom: 1rem;
+}
+
+.join-button {
+  background-color: #007bff !important;
+  color: #fff !important;
+  padding: 10px 20px !important;
+  border: none !important;
+  cursor: pointer !important;
+  border-radius: 5px !important;
+}
+
+/* index.css */
+
+body, html, #root, .App {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Pastikan .content menggunakan flexbox dan menyesuaikan lebar */
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Sidebar tetap dengan lebar tertentu */
+.sidebar {
+  width: 220px;
+  background-color: #e0f7e0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* DropshipperPage menempati sisa ruang yang ada */
+.dropshipper-page {
+  flex: 1;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* index.css */
+
+/* Tambahkan styling untuk kotak setiap opsi di sidebar */
+.container {
+  display: flex; /* Menyusun elemen di dalamnya secara horizontal */
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #e0f7e0;
+  padding: 1rem;
+  border-radius: 8px;
+  align-self: flex-start; /* Menjaga agar sidebar tetap sesuai tinggi konten */
+}
+
+
+.sidebar-option {
+  background-color: #ffffff; /* Warna latar belakang kotak */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+  transition: background-color 0.3s;
+}
+
+.sidebar-option:hover {
+  background-color: #f0f0f0; /* Warna latar saat opsi dihover */
+}
+
+.sidebar-icon {
+  width: 20px;
+  height: 20px;
+}

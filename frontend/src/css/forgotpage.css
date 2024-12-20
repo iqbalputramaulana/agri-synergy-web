@@ -1,0 +1,189 @@
+.login-container-forgot {
+  display: flex !important;
+  height: 100vh !important;
+  position: relative !important;
+}
+
+.form-container-forgot {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 487px !important;
+  padding: 3rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  background-color: rgba(19, 56, 44) !important;
+  color: white !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+  z-index: 10 !important;
+}
+
+.logo {
+  width: 156px !important;
+  height: 121px !important;
+  margin-bottom: 12px !important;
+}
+
+h2 {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  color: #f6fb7a !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  margin-bottom: 0.5rem !important;
+  text-align: center;
+}
+
+.keterangan {
+  font-size: 11px !important;
+  text-align: center !important;
+  padding-bottom: 11px !important;
+}
+
+.google-login {
+  width: 384px !important;
+  height: 46.48px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: white !important;
+  color: #333 !important;
+  border: none !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 15px !important;
+  margin-bottom: 23px !important;
+  cursor: pointer !important;
+  border-radius: 8px !important;
+}
+
+.google-login img {
+  padding-right: 13px !important;
+}
+
+.or-container {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+
+.line {
+  flex: 1 !important;
+  height: 1px !important;
+  background-color: #d1d5db !important;
+  margin: 0 10px !important;
+}
+
+.or-text {
+  font-size: 0.8rem !important;
+  color: #d1d5db !important;
+  padding: 0 !important;
+  vertical-align: middle !important;
+}
+
+.title_input_field {
+  text-align: left !important;
+  margin: 0 !important;
+  width: 100% !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  padding-left: 5px !important;
+  font-size: 16px !important;
+}
+
+.title_input_email {
+  text-align: left !important;
+  margin: 0 !important;
+  width: 100% !important;
+  padding-bottom: 15px !important;
+  padding-left: 5px !important;
+  font-size: 16px !important;
+}
+
+.input-field {
+  width: 384px !important;
+  height: 41px !important;
+  padding-left: 13px !important;
+  padding-right: 13px !important;
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+.input-container {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.input-field-email {
+  width: 261px !important;
+  height: 41px !important;
+  padding-left: 13px !important;
+  padding-right: 13px !important;
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  margin-right: 10px !important;
+  margin-bottom: 22px !important;
+}
+
+.kode-button {
+  background-color: #3b82f6 !important;
+  color: white !important;
+  width: 108px !important;
+  height: 41px !important;
+  padding-left: 13px !important;
+  padding-right: 13px !important;
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  margin-bottom: 22px !important;
+}
+
+.submit-button {
+  background-color: #3b82f6 !important;
+  color: white !important;
+  padding: 14px !important;
+  width: 384px !important;
+  height: 48px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  font-size: 1rem !important;
+  margin-top: 36px !important;
+  cursor: pointer !important;
+}
+
+.back-login {
+  padding-top: 24px !important;
+  font-size: 16px !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+
+.image-container-forgot {
+  flex: 1 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.side-image {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  transition: opacity 3s ease-in-out !important;
+  opacity: 0 !important;
+}
+
+.side-image.active {
+  opacity: 1 !important;
+}

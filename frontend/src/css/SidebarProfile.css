@@ -1,0 +1,63 @@
+/* Tambahkan styling untuk kotak setiap opsi di sidebar */
+.container {
+    display: flex; /* Menyusun elemen di dalamnya secara horizontal */
+  }
+  
+  .sidebar-container {
+    width: 220px;
+    background-color: #e0f7e0;
+    padding: 1rem;
+    border-radius: 8px;
+    align-self: flex-start; /* Menjaga agar sidebar tetap sesuai tinggi konten */
+  }
+  
+  .sidebar-option {
+    background-color: #ffffff; /* Warna latar belakang kotak */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-option:hover {
+    background-color: #f0f0f0; /* Warna latar saat opsi dihover */
+  }
+  
+  /* Styling khusus untuk setiap opsi */
+  .sidebar-profile, .sidebar-order-history, .sidebar-dropshipper, .sidebar-logout {
+    /* Tambahkan styling unik untuk setiap opsi jika diperlukan */
+  }
+  
+  .sidebar-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Styling unik untuk ikon di setiap opsi */
+  .icon-profile {
+    color: #13382C; /* Hijau untuk profile */
+  }
+  
+  .icon-order-history {
+    color: #2196f3; /* Biru untuk riwayat pembelian */
+  }
+  
+  .icon-dropshipper {
+    color: #ff9800; /* Oranye untuk dropshipper */
+  }
+  
+  .icon-logout {
+    color: #f44336; /* Merah untuk logout */
+  }
+  
+  .dropshipper-page h2 {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
